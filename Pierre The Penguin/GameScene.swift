@@ -32,5 +32,19 @@ class GameScene: SKScene {
         let beeAction = SKAction.repeatForever(flyAction)
         
         bee.run(beeAction)
+        
+        // Create actions to make our bee fly back and forth
+        let pathLeft = SKAction.moveBy(x: -200, y: -10, duration: 2)
+        let pathRight = SKAction.moveBy(x: 200, y: 10, duration: 2)
+        
+        // Actions to flip the bee back and forth
+        let flipNegative = SKAction.scaleX(to: -1, duration: 0)
+        let flipPositive = SKAction.scaleX(to: 1, duration: 0)
+        
+        let flightOfBee = SKAction.sequence([pathLeft, flipNegative, pathRight, flipPositive])
+        
+        let neverEndingFlight = SKAction.repeatForever(flightOfBee)
+        
+        bee.run(neverEndingFlight)
     }
 }
