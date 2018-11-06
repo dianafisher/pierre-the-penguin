@@ -69,5 +69,13 @@ class GameScene: SKScene {
         let neverEndingFlight = SKAction.repeatForever(flightOfBee)
         
         bee.run(neverEndingFlight)
+        
+        let bee2 = Bee()
+        bee2.position = CGPoint(x: 325, y: 325)
+        self.addChild(bee2)
+        
+        let bee3 = Bee()
+        bee3.position = CGPoint(x: 200, y: 325)
+        self.addChild(bee3)
     }
 }

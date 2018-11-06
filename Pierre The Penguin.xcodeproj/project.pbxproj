@@ -16,6 +16,7 @@
 		DFBF581E21922B7F00F97746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF581D21922B7F00F97746 /* Assets.xcassets */; };
 		DFBF582121922B7F00F97746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBF581F21922B7F00F97746 /* LaunchScreen.storyboard */; };
 		DFBF582B21925CA200F97746 /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF582A21925CA200F97746 /* GameSprite.swift */; };
+		DFBF582D21925D6900F97746 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF582C21925D6900F97746 /* Bee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DFBF582021922B7F00F97746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFBF582221922B7F00F97746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFBF582A21925CA200F97746 /* GameSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
+		DFBF582C21925D6900F97746 /* Bee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				DFBF581021922B7D00F97746 /* AppDelegate.swift */,
+				DFBF582C21925D6900F97746 /* Bee.swift */,
 				DFBF581221922B7D00F97746 /* GameScene.sks */,
 				DFBF581421922B7D00F97746 /* Actions.sks */,
 				DFBF581621922B7D00F97746 /* GameScene.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBF582D21925D6900F97746 /* Bee.swift in Sources */,
 				DFBF582B21925CA200F97746 /* GameSprite.swift in Sources */,
 				DFBF581721922B7D00F97746 /* GameScene.swift in Sources */,
 				DFBF581921922B7D00F97746 /* GameViewController.swift in Sources */,
