@@ -21,6 +21,9 @@ class Bee: SKSpriteNode, GameSprite {
         
         // Attach a physics body, shaped like a circle
         self.physicsBody = SKPhysicsBody(circleOfRadius: size.width / 2)
+        
+        // Bees are not affected by gravity
+        self.physicsBody?.affectedByGravity = false
     }
     
     required init?(coder aDecoder: NSCoder) {
