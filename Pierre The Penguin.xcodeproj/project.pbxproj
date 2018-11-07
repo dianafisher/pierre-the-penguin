@@ -18,6 +18,7 @@
 		DFBF582B21925CA200F97746 /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF582A21925CA200F97746 /* GameSprite.swift */; };
 		DFBF582D21925D6900F97746 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF582C21925D6900F97746 /* Bee.swift */; };
 		DFBF582F219260B000F97746 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF582E219260B000F97746 /* Ground.swift */; };
+		DFBF583121926E9C00F97746 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF583021926E9C00F97746 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DFBF582A21925CA200F97746 /* GameSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
 		DFBF582C21925D6900F97746 /* Bee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
 		DFBF582E219260B000F97746 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		DFBF583021926E9C00F97746 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				DFBF582A21925CA200F97746 /* GameSprite.swift */,
 				DFBF581821922B7D00F97746 /* GameViewController.swift */,
 				DFBF582E219260B000F97746 /* Ground.swift */,
+				DFBF583021926E9C00F97746 /* Player.swift */,
 				DFBF581221922B7D00F97746 /* GameScene.sks */,
 				DFBF581421922B7D00F97746 /* Actions.sks */,
 				DFBF581A21922B7D00F97746 /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				DFBF582D21925D6900F97746 /* Bee.swift in Sources */,
 				DFBF582B21925CA200F97746 /* GameSprite.swift in Sources */,
 				DFBF581721922B7D00F97746 /* GameScene.swift in Sources */,
+				DFBF583121926E9C00F97746 /* Player.swift in Sources */,
 				DFBF581921922B7D00F97746 /* GameViewController.swift in Sources */,
 				DFBF581121922B7D00F97746 /* AppDelegate.swift in Sources */,
 			);
