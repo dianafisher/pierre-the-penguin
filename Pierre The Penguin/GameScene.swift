@@ -12,6 +12,7 @@ class GameScene: SKScene {
     
     let cameraNode = SKCameraNode()
     let bee = SKSpriteNode()
+    let ground = Ground()
     
     override func didMove(to view: SKView) {
         
@@ -25,6 +26,14 @@ class GameScene: SKScene {
         
         addFlyingBee()
         addBackground()
+
+        // Position the ground based on the screen size
+        ground.position = CGPoint(x: -self.size.width * 2, y: 150)
+        ground.size = CGSize(width: self.size.width * 6, height: 0)
+        ground.createChildren()
+        
+        self.addChild(ground)
+        
     }
     
     override func didSimulatePhysics() {
