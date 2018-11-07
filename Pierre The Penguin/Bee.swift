@@ -18,6 +18,9 @@ class Bee: SKSpriteNode, GameSprite {
         super.init(texture: nil, color: .clear, size: initialSize)
         createAnimations()
         self.run(flyAnimation)
+        
+        // Attach a physics body, shaped like a circle
+        self.physicsBody = SKPhysicsBody(circleOfRadius: size.width / 2)
     }
     
     required init?(coder aDecoder: NSCoder) {
