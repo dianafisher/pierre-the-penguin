@@ -43,6 +43,11 @@ class GameScene: SKScene {
         // Add the player to the scene
         player.position = CGPoint(x: 150, y: 250)
         self.addChild(player)
+        
+        bee2.physicsBody?.mass = 0.2
+        
+        // Force a collision between the bees
+        bee2.physicsBody?.applyImpulse(CGVector(dx: -25, dy: 0))
     }
     
     override func didSimulatePhysics() {
